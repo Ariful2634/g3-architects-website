@@ -1,0 +1,58 @@
+*{
+    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    }
+
+  /*header section*/
+  
+  header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav > ul{
+    display: flex;
+  }
+
+  nav li{
+    list-style: none;
+   margin-right: 30px;
+  }
+
+  nav li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 1rem;
+  }
+
+  .headline{
+    color: #131313;
+    font-size: 2.8rem;
+  }
+
+  /*banner section*/
+
+  .banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .banner-head{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .banner-text{
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+  }
